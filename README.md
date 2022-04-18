@@ -7,7 +7,7 @@
 
   - Install node and npm, execute ```npm install```
   - Install SSL certs to your API by executing:
-    - ```mkdir sslcert```
+    - ```mkdir sslcert``` (In case sslcert folder does not exist)
     - ```sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout ./sslcert/selfsigned.key -out ./sslcert/selfsigned.crt```
   - Fill ```unencrypted_TOTP_secrets.json``` file by following the provided example with your 2FA private keys.
   > ⚠️ Your private keys will be removed and encrypted after executing the server.
