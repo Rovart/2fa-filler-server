@@ -12,6 +12,7 @@
   - Fill ```unencrypted_TOTP_secrets.json``` file by following the provided example with your 2FA private keys.
   > ⚠️ Your private keys will be removed and encrypted after executing the server.
   - Execute as sudo and set a password for encryption: ```sudo node index.js -p <password_to_encrypt>```
+  - Install the chrome extension on your personal PC to continue: https://github.com/Rovart/2fa-filler-extension
 
 ## Other information
 
