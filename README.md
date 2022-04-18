@@ -1,4 +1,4 @@
-# 2fa-filler-extension
+# 2fa-filler-server
 2FA API server to provide your 2FA codes to your devices locally. Please notice this version is alpha and under development.
 
 > ⚠️ Disclaimer: Please note that this project involves a security tradeoff. I am by no means responsible for any security vulnerability derivated from this tool. Use it on your behalf.
